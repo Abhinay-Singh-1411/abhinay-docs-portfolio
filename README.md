@@ -10,4 +10,4 @@ Content will include:
 
 Portfolio site: https://Abhinay-Singh-1411.github.io/abhinay-docs-portfolio
 
-Contact: abhinay.writes@gmail.com | https://www.linkedin.com/in/<your-linkedin-handle>
+Contact: abhinay.work.1411@gmail.com | www.linkedin.com/in/abhinay-singh-8a2213269
