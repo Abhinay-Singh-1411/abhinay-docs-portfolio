@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abhinay Singh — Technical Writer</title>
+
+  <!-- Google Font: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Abhinay Singh</h1>
+      <p class="role">Technical Writer — Developer Docs • API Quickstarts • Content Design.</p>
+    </header>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I'm building clear, developer-focused docs that get teams and users started quickly. This portfolio will host API quickstarts, user guides, and content design notes.</p>
+    </section>
+
+    <section id="portfolio" class="card placeholder">
+      <h2>Portfolio (coming soon)</h2>
+      <p>Placeholder for upcoming projects: API Quickstart, CLI Guide, and a Product Docs sample. I'll add live examples here next week.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:abhinay.writes@gmail.com">abhinay.writes@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank" rel="noopener">linkedin.com/in/YOUR-LINKEDIN-HANDLE</a></p>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Abhinay Singh — Technical Writing</small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
